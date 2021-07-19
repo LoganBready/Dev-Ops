@@ -2,7 +2,7 @@ function getGreeting(name){
     return "Hi " + name;
 }
 
-function getIt (it){
+function getIt(it){
     return "get" + it;
 }
 
