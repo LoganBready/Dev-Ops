@@ -1,10 +1,12 @@
-const getGreeting = require('./project');
-const getIt = require('./project')
+const functions = require('./project');
+
+
+let {sayHi, getGreeting} = functions
 
 test('can create a basic greeting', () => {
   expect(getGreeting('Sam')).toBe("Hi Sam");
 });
 
-test('can get it', () => {
-  expect(getIt('chick')).toBe('get chick')
+test('say hello', () => {
+  expect(sayHi('jeff')).toBe("hello, jeff")
 })

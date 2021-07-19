@@ -1,10 +1,15 @@
-function getGreeting(name){
-    return "Hi " + name;
+module.exports = {
+    getGreeting: (name) => {
+        return "Hi " + name;
+    }, 
+    sayHi: (name) => {
+        return "hello, " + name;
+    }
 }
 
-function getIt(it){
-    return "Get" + it;
-}
 
-module.exports = getIt;
-module.exports = getGreeting;
+
+
+
+// module.exports = sayHi;
+// module.exports = getGreeting;
