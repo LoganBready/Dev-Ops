@@ -3,7 +3,7 @@ function getGreeting(name){
 }
 
 function getIt(it){
-    return "get" + it;
+    return "Get" + it;
 }
 
 module.exports = getIt;
